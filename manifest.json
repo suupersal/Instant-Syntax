@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Syntax Highlighter",
+  "description": "This extension will highlight the code syntax of any highlighted text",
+  "version": "1.0",
+  "author": "Salvador Gutierrez Redistribution prohibited",
+  
+  "background": {
+  "css": ["prism.css"],
+  "scripts": ["prism.js","simpleInsert.js"],
+   "persistent": false,
+    "scripts": ["background.js"]
+  },
+
+
+  "permissions": [
+    "https://*/*" ,
+    "activeTab"
+  ],
+  
+  
+  
+  "browser_action": {
+
+    "default_icon": "icon1.png"
+  }
+}
